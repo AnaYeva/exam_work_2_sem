@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
-void Cycle(const string words[2][am]){
+void Cycle(){
     srand(time(nullptr));
     int temp = rand() % am;
     int temp4 = rand() % 4;//position where right answer wil be
